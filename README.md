@@ -1,7 +1,7 @@
 # JavaScript-API-RESTful-Java-EE-MySQL
 Aplicación CRUD Web API RESTful que se conecta a una base de datos MySQL, implementada con Java EE, JavaScript y alojada en un servidor Glassfish.
 
-Video de presentación: 
+Video de presentación: https://www.youtube.com/watch?v=Goj2pccHcQI
 
 Esta aplicación CRUD sigue una arquitectura en n capas, y está conformada de la siguiente manera:
 Capa del cliente:
