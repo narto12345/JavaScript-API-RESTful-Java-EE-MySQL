@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD Personas</title>
+    <link rel="icon" type="image/x-icon" href="/img/personas-icono-png.png">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+    <h1>Personas</h1>
+    <button type="button" id="boton-abrir-formulario" class="boton">Crear Persona</button>
+    <table id="tabla-persona" class="tabla">
+        <tr>
+            <th>NOMBRE</th>
+            <th>APELLIDO</th>
+            <th>EMAIL</th>
+            <th>TELÉFONO</th>
+            <th>ACCIONES</th>
+        </tr>
+    </table>
+    <form id="formulario-persona" class="formulario desaparecer">
+        <table>
+            <tr style="display: none;">
+                <td><label for="idPersona"></label>ID: </td>
+                <td><input type="text" id="idPersona"></td>
+            </tr>
+            <tr>
+                <td><label for="nombre"></label>Nombre: </td>
+                <td><input type="text" id="nombre"></td>
+            </tr>
+            <tr>
+                <td><label for="apellido"></label>Apellido: </td>
+                <td><input type="text" id="apellido"></td>
+            </tr>
+            <tr>
+                <td><label for="email"></label>Email: </td>
+                <td><input type="text" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="telefono"></label>Teléfono: </td>
+                <td><input type="text" id="telefono"></td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit" id="boton-crear-persona" class="boton">Crear</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <script src="/js/controller.js"></script>
+</body>
+
+</html>

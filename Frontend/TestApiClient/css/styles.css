@@ -1,0 +1,23 @@
+.boton {
+    padding: 5px;
+}
+
+#tabla-persona {
+    margin-top: 15px;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+#tabla-persona tr,
+#tabla-persona th,
+#tabla-persona td {
+    border: 1px solid #000;
+}
+
+#formulario-persona {
+    margin-top: 15px;
+}
+
+.desaparecer {
+    display: none;
+}
