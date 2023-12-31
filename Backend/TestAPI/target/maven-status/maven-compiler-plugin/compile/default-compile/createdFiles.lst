@@ -1,0 +1,6 @@
+com\bitsteam\testapi\model\Persona.class
+com\bitsteam\testapi\data\IPersonaDao.class
+com\bitsteam\testapi\web\CorsFilter.class
+com\bitsteam\testapi\data\PersonaDaoImpl.class
+com\bitsteam\testapi\service\PersonaServiceRS.class
+com\bitsteam\testapi\web\JAXRSActivator.class
